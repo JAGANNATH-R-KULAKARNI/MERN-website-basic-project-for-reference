@@ -13,7 +13,7 @@ class App extends React.Component
 
   componentDidMount()
   {
-   axios.get('/ReactExpressConnection').then((res)=>{
+   axios.get('/admin/ReactExpressConnection').then((res)=>{
      this.setState({
        data : res.data
      })
